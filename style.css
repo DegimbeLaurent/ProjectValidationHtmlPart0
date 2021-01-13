@@ -1,0 +1,254 @@
+html{
+	font-family: "arial", verdana, sans-serif;
+	font-size:.625em;
+	line-height:1.5;
+	letter-spacing:.15rem;
+	margin:0;
+	padding:0;
+}
+body{
+    margin:0;
+	padding:0;
+}
+.Img{
+	width:12em;
+	height:auto;
+	border:none;
+	display:inline-block;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+
+/*-------------------------Button---------------------------*/
+.button{
+    margin: 20px auto;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(230, 153, 10);
+    border-radius: 8px;
+    border: white solid 0.2em;
+    height: 60px;
+    width: 10%; 
+}
+
+.button p{
+    font-size:1.625em;
+}
+
+/*------------------------Couleur---------------------------*/
+
+.Bleu{
+    background-color:rgb(64, 191, 255);
+}
+
+.White{
+    background-color: white;
+}
+
+.text-White{
+    color: white;
+}
+
+/*-------------------------Header---------------------------*/
+
+#Nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    height: 7%;
+    padding-left: 10%;
+    background-color: #555555;
+    z-index: 2;
+}
+
+#UlNav{
+    display: flex;
+    
+}
+
+
+
+#UlNav li{
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1%;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+#DivLogoNav{
+    margin-top: 10px;
+}
+
+
+/*-------------------------Main---------------------------*/
+
+
+/*-------------------------stard---------------------------*/
+
+.SectionStard {
+    padding-top: 7%;
+    height: auto;
+    padding-left: 10%;
+    padding-bottom: 5vh;
+    z-index: 1;
+    display: flex;
+}
+
+#ImgDev{
+    height: 10%;
+    width: 23%;
+    display: inline;
+}
+
+#ImgDev img{
+   height: auto;
+   width: 75%;
+}
+
+#InfoStard{
+    height: 60%;
+    width: 40%;
+    display: inline;
+    margin: 0 auto;
+    padding: 0% auto;
+}
+
+#InfoStard p{
+    font-size: 2.550em ;
+    font-weight: bold;
+}
+
+#InfoLogo{
+    padding: 0 20%;
+    margin-bottom: 20px;
+}
+
+#Info{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#InfoButton{
+    margin: 20px auto;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(230, 153, 10);
+    border-radius: 8px;
+    border: white solid 0.2em;
+    height: 60px;
+    width: 60%;
+}
+#InfoButton p{
+    display: inline;
+}
+
+/*-------------------------transi---------------------------*/
+
+.DivTransi{
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.DivTransi p{
+    font-size: 2.550em ;
+}
+
+/*-------------------------Article---------------------------*/
+
+.Article{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 7%;
+    width: 86vw;
+}
+
+.Article div{
+    width: 45%;
+    margin: 10px 10px;
+}
+
+h3{
+    font-size: 2.550em ;
+    font-weight: bold;
+}
+
+.Article p{
+    font-size: 1.550em ;
+}
+
+/*-------------------------section logo---------------------------*/
+
+.Logo{
+    background-color: rgb(236, 235, 235);
+    padding: 50px 15%;
+    
+}
+
+.Logo div{
+    height: 5vh;
+    display: flex;;
+    margin: 0 auto;
+}
+
+.Spon{
+    height: 100%;
+    margin: 0 50px;
+    width: auto;
+    filter: grayscale(1);
+    opacity: 50%;
+}
+
+.Product{
+    margin: 50px 40%;
+    height: 5vh;
+    width: auto;
+    display: inline;
+}
+
+
+.SectionButton{
+    display: flex;
+    justify-content: center;
+    padding: 3% 7%;
+}
+
+.SectionButton p{
+    font-weight: bold;
+}
+
+.SectionButton div{
+    font-weight: bold;
+    margin: 0 0;
+}
+
+/*-------------------------Footer---------------------------*/
+
+ footer{
+     background-color: rgb(90, 90, 90);
+ }
+
+ footer ul{
+     display: flex;
+ }
+
+ footer li{
+    margin: 20px 20px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.550em ;
+}
+
+footer a{
+    color: white;
+}
